@@ -12,7 +12,9 @@ export default function PokemonCard({ pokemonData }) {
         className="w-full h-48 object-cover"
       />
       <div>
-        <h2 className="text-xl font-semibold capitalize">nombre</h2>
+        <h2 className="text-xl font-semibold capitalize">
+          nombre: {pokemonData.name}
+        </h2>
         <p>ID: {pokemonData.id}</p>
       </div>
     </div>
